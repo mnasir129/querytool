@@ -482,3 +482,9 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# CI/CD publish output
+QueryTool.API/deploy/
+
+# Jenkins deployment artifacts
+QueryTool.API/*.tar.gz
