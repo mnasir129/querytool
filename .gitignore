@@ -488,3 +488,6 @@ QueryTool.API/deploy/
 
 # Jenkins deployment artifacts
 QueryTool.API/*.tar.gz
+
+# Keep CI/CD publish profile required by Jenkins
+!QueryTool.API/Properties/PublishProfiles/CICD.pubxml
