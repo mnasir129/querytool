@@ -12,7 +12,7 @@ app.MapGet("/", (IConfiguration configuration, IWebHostEnvironment environment) 
 
     var message =
         configuration["QueryTool:Message"]
-        ?? "Hello from QueryTool";
+        ?? "Hello from QueryTool, how are you";
 
     return Results.Ok(new
     {
